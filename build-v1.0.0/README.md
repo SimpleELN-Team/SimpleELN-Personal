@@ -4,4 +4,5 @@ Replace the simpleelnapp.jar file in the ${os}-${arch} subfolder with the releas
 
 To run the server app:  
 cd ${os}-${arch}
+
 ./elnconfig <path/to/jre/java> -jar simpleelnapp.jar
