@@ -6,9 +6,17 @@
 
 # Run the server
 
-- Navigate to ${platform}-${arch} folder
+- Navigate to ${platform}-${arch} folder, eg win-x64
 - For Windows
     - startserver.bat
 - For macOS or Linux
     - ./startserver.sh
+   
+# Stop the server
+
+- Navigate to ${platform}-${arch} folder, eg win-x64
+- For Windows
+    - stopserver.bat
+- For macOS or Linux
+    - ./stopserver.sh
    
