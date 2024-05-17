@@ -11,22 +11,14 @@ piderror=0
 pidrunning=0
 porterror=0
 portinuse=0
-propPort=""
-propportinuse=0
+propPort=0
 
 processPropertiesPort()
 {
     # Process the properties file: $PROPERTIESFILENAME
     if [ -f $PROPERTIESFILENAME ]; then
         propPort=$(cat $PROPERTIESFILENAME 2>/dev/null | grep '^server.port=' | sed -e 's/server.port=//' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' )
-        if [[ $propPort > 0 ]]; then
-            if (echo >/dev/tcp/localhost/$propPort) &>/dev/null; then
-                propportinuse=1
-                return 0
-            fi
-        fi 
     fi
-    propportinuse=0
     return 0
 }
 
@@ -82,7 +74,6 @@ closePortByPortId()
     if [[ $(lsof -i tcp:$srcport 2>/dev/null | awk -v portNum=":$srcport" '$0 ~ portNum {print $2}' | xargs -I {} sh -c 'kill {} 2>/dev/null || kill -9 {} 2>/dev/null ') \
             || $(fuser -k $srcport/tcp 2>/dev/null ) \
             || $(ss -ltpH "sport = :$srcport" 2>/dev/null | sed -e 's/.*pid=//' | sed -e 's/,.*$//' | xargs -I {} sh -c 'kill {} 2>/dev/null || kill -9 {} 2>/dev/null ' ) \
-            || $(netstat -av 2>/dev/null | grep -i "listen" | grep ".$srcport\>" | awk -v portNum=".$srcport" '$0 ~ portNum {print $9}' | xargs -I {} sh -c 'kill {} 2>/dev/null || kill -9 {} 2>/dev/null ' ) \
         ]] ; then 
        return 0
     else
@@ -110,9 +101,9 @@ startTheServerApp()
             closePortByPortId $appport
         fi
     fi
-    if [[ "$propportinuse" == "1" ]]; then
+    if [[ $propPort > 0 ]]; then
         closePortByPortId $propPort
-    fi
+    fi 
     ./elnconfig ./jre/bin/java -Xms4096m -jar simpleelnapp.jar
 }
 
