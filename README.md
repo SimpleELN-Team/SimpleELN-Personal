@@ -25,7 +25,12 @@
 
 <details>
 <summary>
+
+  <a href="https://github.com/SimpleELN-Team/SimpleELN-Personal/releases"> abc </a>
+  
   Personal Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
+
+  
 </summary>
 
   - Windows
