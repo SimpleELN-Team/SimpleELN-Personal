@@ -25,7 +25,7 @@
 
 <details>
 <summary>Personal Edition
-   [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
+   [Latest Release]<https://github.com/SimpleELN-Team/SimpleELN-Personal/releases>_ 
 </summary>
 
   - Windows
