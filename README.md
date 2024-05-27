@@ -24,7 +24,11 @@
 # Releases
 
 <details>
-<summary>Personal Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) </summary>
+<summary>
+  
+  Personal Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
+  
+</summary>
 
   - Windows
     - Desktop Version
