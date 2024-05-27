@@ -24,7 +24,7 @@
 # Releases
 
 <details>
-<summary> Personal Edition <a href="https://github.com/SimpleELN-Team/SimpleELN-Personal/releases">Latest Release</a> </summary>
+<summary>Personal Edition <a href="https://github.com/SimpleELN-Team/SimpleELN-Personal/releases">Latest Release</a> </summary>
 
   - Windows
     - Desktop Version
@@ -54,8 +54,8 @@
 </details>   
 
 <details>
-<summary>Team Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Team/releases) </summary>
-
+<summary>Team Edition <a href="https://github.com/SimpleELN-Team/SimpleELN-Team/releases">Latest Release</a> </summary>
+  
   - Server
     - Windows
       - x86_64: [SimpleELN-Team-Server-win-x64-1.0.0.zip](https://github.com/SimpleELN-Team/SimpleELN-Team/releases/download/v1.0.0/SimpleELN-Team-Server-win-x64-1.0.0.zip) 
