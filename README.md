@@ -71,8 +71,8 @@
     - arm64 : [SimpleELN-Team-Docker-Server-arm64-1.0.0.tar.gz](https://github.com/SimpleELN-Team/SimpleELN-Team/releases/download/v1.0.0/SimpleELN-Team-Docker-Server-arm64-1.0.0.tar.gz)
 </details>
 <details>
-  <summary>MultiTeam Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-MultiTeam/releases) </summary>
-
+  <summary>MultiTeam Edition <a href="https://github.com/SimpleELN-Team/SimpleELN-MultiTeam/releases">Latest Release</a> </summary>
+  
   - Server
     - Windows
       - x86_64: [SimpleELN-MultiTeam-Server-win-x64-1.0.0.zip](https://github.com/SimpleELN-Team/SimpleELN-MultiTeam/releases/download/v1.0.0/SimpleELN-MultiTeam-Server-win-x64-1.0.0.zip)  
