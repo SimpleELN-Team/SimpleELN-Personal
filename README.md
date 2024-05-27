@@ -24,13 +24,10 @@
 # Releases
 
 <details>
-<summary>
+<summary>Personal Edition
 
-  <a href="https://github.com/SimpleELN-Team/SimpleELN-Personal/releases"> abc </a>
-  
-  Personal Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
+   [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
 
-  
 </summary>
 
   - Windows
