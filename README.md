@@ -24,9 +24,9 @@
 # Releases
 
 <details>
-<summary>
+<summary>Personal Edition
   
-  Personal Edition [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
+  [Latest Release](https://github.com/SimpleELN-Team/SimpleELN-Personal/releases) 
   
 </summary>
 
