@@ -24,7 +24,7 @@
 # Releases
 
 <details>
-<summary>Personal Edition
+<summary><a href="aasc.html">Personal Edition</a>
    [Latest Release]<https://github.com/SimpleELN-Team/SimpleELN-Personal/releases>_ 
 </summary>
 
