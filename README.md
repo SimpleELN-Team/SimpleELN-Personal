@@ -24,9 +24,7 @@
 # Releases
 
 <details>
-<summary><a href="aasc.html">Personal Edition</a>
-   [Latest Release]<https://github.com/SimpleELN-Team/SimpleELN-Personal/releases>_ 
-</summary>
+<summary> Personal Edition <a href="https://github.com/SimpleELN-Team/SimpleELN-Personal/releases">Latest Release</a> </summary>
 
   - Windows
     - Desktop Version
